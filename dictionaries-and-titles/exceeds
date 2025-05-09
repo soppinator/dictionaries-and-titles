@@ -1,0 +1,3 @@
+inpt = input("enter the name of a 12th grade crew advisor: ")
+team_12['crew_spaces'][inpt]
+print(f"{inpt.title()} meets in {team_12['crew_spaces'][inpt].title()}")
